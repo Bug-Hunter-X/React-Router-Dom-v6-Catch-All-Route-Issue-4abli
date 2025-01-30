@@ -1,0 +1,3 @@
+# React Router Dom v6 Catch-All Route Issue
+
+This repository demonstrates a common issue encountered when using catch-all routes (`/*`) in React Router Dom v6.  The catch-all route is incorrectly matching all paths, overriding more specific routes that should be matched first.  The solution demonstrates how to correctly order routes to resolve this issue.  See `bug.js` for the problematic code and `bugSolution.js` for the solution.
